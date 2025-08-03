@@ -10,7 +10,7 @@ export default function AuthComponent() {
       <div className="w-full max-w-4xl mx-auto px-8 py-12 bg-white shadow-2xl rounded-2xl flex flex-col items-center justify-center space-y-6 text-center">
         {session ? (
           <>
-            <h1 className="text-3xl font-bold text-[#1f4dfd]">Welcome Back!</h1>
+            <h1 className="text-3xl font-bold text-[#ff5c2c]">Welcome Back!</h1>
             <p className="text-lg text-gray-700">
               Signed in as <strong>{session.user?.email}</strong>
             </p>
@@ -23,11 +23,11 @@ export default function AuthComponent() {
           </>
         ) : (
           <>
-            <h1 className="text-3xl font-bold text-[#1f4dfd]">Welcome to Our App</h1>
+            <h1 className="text-3xl font-bold text-[#ff5c2c]">Welcome to the foundation page!</h1>
             <p className="text-lg text-gray-700">Please sign in to continue</p>
             <button
               onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
-              className="mt-4 px-8 py-3 rounded-full text-white font-semibold transition bg-[#1f4dfd] hover:bg-[#163dcf]"
+              className="mt-4 px-8 py-3 rounded-full text-white font-semibold transition bg-[#ff5c2c] hover:bg-[#ff5c2c]"
             >
               Sign in with Google
             </button>

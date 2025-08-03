@@ -5,11 +5,10 @@ export default function Home() {
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-[#f4f7ff]">
       <main className="flex flex-col gap-10 row-start-2 items-center sm:items-start text-center sm:text-left">
         <h1 className="text-4xl sm:text-5xl font-bold text-[#1e4dfd]">
-          Welcome to Oolka!
+          Welcome to She Can Foundation!
         </h1>
         <p className="text-gray-700 text-lg max-w-xl">
-          A credit-based platform empowering underserved communities. Apply for
-          small credits, build financial trust, and grow — no strings attached.
+          She Can Foundation is a non-profit organization dedicated to empowering underprivileged communities through education, skill development, and awareness initiatives.It focuses on creating sustainable opportunities, especially for women and youth, to help them achieve financial independence and social upliftment.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
@@ -34,7 +33,7 @@ export default function Home() {
           href="#"
           target="_blank"
         >
-          About Oolka
+          About Us
         </a>
         <a
           className="hover:underline hover:underline-offset-4"
