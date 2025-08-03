@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 bg-[#f4f7ff]">
       <main className="flex flex-col gap-10 row-start-2 items-center sm:items-start text-center sm:text-left">
-        <h1 className="text-4xl sm:text-5xl font-bold text-[#1e4dfd]">
+        <h1 className="text-4xl sm:text-5xl font-bold text-[#ff5c2c]">
           Welcome to She Can Foundation!
         </h1>
         <p className="text-gray-700 text-lg max-w-xl">
@@ -13,13 +13,13 @@ export default function Home() {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <a
-            className="rounded-full bg-[#1e4dfd] text-white hover:bg-[#163cd1] transition font-medium text-sm sm:text-base h-12 px-6 flex items-center justify-center"
+            className="rounded-full bg-[#fb6132] text-white hover:bg-[#ff5c2c] transition font-medium text-sm sm:text-base h-12 px-6 flex items-center justify-center"
             href="/login"
           >
             Login
           </a>
           <a
-            className="rounded-full border border-[#1e4dfd] text-[#1e4dfd] hover:bg-[#e8edff] transition font-medium text-sm sm:text-base h-12 px-6 flex items-center justify-center"
+            className="rounded-full border border-[#ff5c2c] text-[#ff5c2c] hover:bg-[#e8edff] transition font-medium text-sm sm:text-base h-12 px-6 flex items-center justify-center"
             href="#"
           >
             Learn More

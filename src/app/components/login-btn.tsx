@@ -23,7 +23,7 @@ export default function AuthComponent() {
           </>
         ) : (
           <>
-            <h1 className="text-3xl font-bold text-[#ff5c2c]">Welcome to the foundation page!</h1>
+            <h1 className="text-3xl font-bold text-[#ff5c2c]">Welcome to She Can Foundation!</h1>
             <p className="text-lg text-gray-700">Please sign in to continue</p>
             <button
               onClick={() => signIn("google", { callbackUrl: "/dashboard" })}
